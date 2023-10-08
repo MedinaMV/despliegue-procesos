@@ -37,4 +37,9 @@ public class CodigoQRController {
 
 		return ResponseEntity.ok().contentType(MediaType.IMAGE_PNG).body(imageBytes);
 	}
+	
+	@GetMapping("/saludo")
+	public String saludar() {
+		return "Hola";
+	}
 }
