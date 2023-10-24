@@ -40,6 +40,6 @@ public class CodigoQRController {
 	
 	@GetMapping("/saludo")
 	public String saludar() {
-		return "Hola";
+		return "Antonio Apruebanos";
 	}
 }
